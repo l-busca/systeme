@@ -26,7 +26,7 @@ def recherche(fichier):
         for x, y, w, h in body:
             cv2.rectangle(frame, (x, y), (x + w, y + h), (255, 0, 0), 2)
             # les ajoutes au tableau
-            liste.append(f'id : {i}, x: {x} y: {y}')
+            liste.append(f'id : {i}, milieu x: {2*x+w} milieu y: {2*y+h}, largeur : {w}, hauteur : {h}')
             i = i + 1
         if cv2.waitKey(1) == ord('q'):
             break
