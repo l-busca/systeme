@@ -21,3 +21,5 @@ def recherche(fichier):
 
 
 t1 = threading.Thread(target=recherche, args=("./haarcascade_fullbody.xml",))
+
+t1.join()
