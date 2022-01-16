@@ -3,7 +3,7 @@ import threading
 import cv2
 
 liste = []
-
+i = 0
 def recherche(fichier):
     body_cascade = cv2.CascadeClassifier(fichier)
     cap = cv2.VideoCapture('sample.mp4')
@@ -14,7 +14,8 @@ def recherche(fichier):
         body = body_cascade.detectMultiScale(gray, scaleFactor=1.2, minNeighbors=3)
         for x, y, w, h in body:
             cv2.rectangle(frame, (x, y), (x + w, y + h), (255, 0, 0), 2)
-            liste.append(f'{x} {y}')
+            liste.append(f'id : {i}, x: {x} y: {y}')
+            i++
         if cv2.waitKey(1) == ord('q'):
             break
         cv2.imshow('video', frame)
@@ -24,7 +25,7 @@ def recherche(fichier):
 
 def collecte():
     while True:
-        with open('localisation.txt') as f:
+        with open('localisation.txt', 'w') as f:
             for x in liste:
                 f.write(f'{x}\n')
 
