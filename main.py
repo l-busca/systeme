@@ -12,6 +12,7 @@ i = 0
 # fonction qui recherche les personnes
 def recherche(fichier):
     # le modèle a rechercher dans la vidéo
+    global i
     body_cascade = cv2.CascadeClassifier(fichier)
 
     # la vidéo en question

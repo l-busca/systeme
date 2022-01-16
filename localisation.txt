@@ -1,7 +1,20 @@
-id : 0, x: 478 y: 244
-id : 0, x: 650 y: 230
-id : 0, x: 650 y: 230
-id : 0, x: 424 y: 257
-id : 0, x: 435 y: 247
-id : 0, x: 437 y: 254
-id : 0, x: 433 y: 284
+id : 0, milieu x: 1002 milieu y: 580, largeur : 46, hauteur : 92
+id : 1, milieu x: 1380 milieu y: 618, largeur : 80, hauteur : 158
+id : 2, milieu x: 1380 milieu y: 618, largeur : 80, hauteur : 158
+id : 3, milieu x: 935 milieu y: 687, largeur : 87, hauteur : 173
+id : 4, milieu x: 1000 milieu y: 754, largeur : 130, hauteur : 260
+id : 5, milieu x: 999 milieu y: 758, largeur : 125, hauteur : 250
+id : 6, milieu x: 918 milieu y: 673, largeur : 52, hauteur : 105
+id : 7, milieu x: 927 milieu y: 680, largeur : 55, hauteur : 110
+id : 8, milieu x: 1120 milieu y: 1109, largeur : 38, hauteur : 77
+id : 9, milieu x: 940 milieu y: 688, largeur : 60, hauteur : 120
+id : 10, milieu x: 963 milieu y: 707, largeur : 57, hauteur : 113
+id : 11, milieu x: 962 milieu y: 710, largeur : 52, hauteur : 104
+id : 12, milieu x: 962 milieu y: 708, largeur : 62, hauteur : 124
+id : 13, milieu x: 967 milieu y: 732, largeur : 39, hauteur : 78
+id : 14, milieu x: 967 milieu y: 718, largeur : 55, hauteur : 110
+id : 15, milieu x: 968 milieu y: 712, largeur : 50, hauteur : 100
+id : 16, milieu x: 968 milieu y: 712, largeur : 50, hauteur : 100
+id : 17, milieu x: 974 milieu y: 728, largeur : 50, hauteur : 100
+id : 18, milieu x: 967 milieu y: 709, largeur : 41, hauteur : 81
+id : 19, milieu x: 232 milieu y: 224, largeur : 44, hauteur : 88
